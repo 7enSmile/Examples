@@ -7,6 +7,18 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="193dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:onClick="OnClickColor"
+        android:text="Цвет"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAccess" />
+
     <TextView
         android:id="@+id/textResult"
         android:layout_width="210dp"
@@ -86,7 +98,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
-        android:onClick="OnClickButtom"
+        android:onClick="OnClickRes"
         android:text="Рассчет"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewY2" />
